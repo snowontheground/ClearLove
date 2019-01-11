@@ -9,26 +9,27 @@
         android:id="@+id/activity_lch_main_layout_frameLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        >
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="0dp">
 
         <ImageView
             android:id="@+id/bg"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/bg"
-            android:scaleType="centerCrop"/>
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-         <TextView
-             android:layout_width="match_parent"
-             android:layout_height="wrap_content"
-             android:text="课程表"
-             android:gravity="center"
-             android:textSize="26sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="课程表"
+                android:textSize="26sp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -39,67 +40,74 @@
                     android:layout_width="50dp"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:text="节/周"/>
+                    android:text="节/周" />
+
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="周一"/>
+                    android:text="周一" />
+
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="周二"/>
+                    android:text="周二" />
+
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="周三"/>
+                    android:text="周三" />
+
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="周四"/>
+                    android:text="周四" />
+
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="周五"/>
+                    android:text="周五" />
+
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="周六"/>
+                    android:text="周六" />
+
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="周日"/>
+                    android:text="周日" />
             </LinearLayout>
 
             <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent">
 
                 <TableLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:collapseColumns="8" >
+                    android:collapseColumns="8">
 
                     <RelativeLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent" >
+                        android:layout_height="match_parent">
 
                         <TableRow
                             android:layout_width="match_parent"
-                            android:layout_height="60dp" >
+                            android:layout_height="60dp">
 
                             <Button
                                 style="@style/btnCourseStyle2"
@@ -160,11 +168,11 @@
 
                     <RelativeLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent" >
+                        android:layout_height="match_parent">
 
                         <TableRow
                             android:layout_width="match_parent"
-                            android:layout_height="60dp" >
+                            android:layout_height="60dp">
 
                             <Button
                                 style="@style/btnCourseStyle2"
@@ -225,11 +233,11 @@
 
                     <RelativeLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent" >
+                        android:layout_height="match_parent">
 
                         <TableRow
                             android:layout_width="match_parent"
-                            android:layout_height="60dp" >
+                            android:layout_height="60dp">
 
                             <Button
                                 style="@style/btnCourseStyle2"
@@ -290,11 +298,11 @@
 
                     <RelativeLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent" >
+                        android:layout_height="match_parent">
 
                         <TableRow
                             android:layout_width="match_parent"
-                            android:layout_height="60dp" >
+                            android:layout_height="60dp">
 
                             <Button
                                 style="@style/btnCourseStyle2"
@@ -355,11 +363,11 @@
 
                     <RelativeLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent" >
+                        android:layout_height="match_parent">
 
                         <TableRow
                             android:layout_width="match_parent"
-                            android:layout_height="60dp" >
+                            android:layout_height="60dp">
 
                             <Button
                                 style="@style/btnCourseStyle2"
@@ -420,11 +428,11 @@
 
                     <RelativeLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent" >
+                        android:layout_height="match_parent">
 
                         <TableRow
                             android:layout_width="match_parent"
-                            android:layout_height="60dp" >
+                            android:layout_height="60dp">
 
                             <Button
                                 style="@style/btnCourseStyle2"
@@ -485,11 +493,11 @@
 
                     <RelativeLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent" >
+                        android:layout_height="match_parent">
 
                         <TableRow
                             android:layout_width="match_parent"
-                            android:layout_height="60dp" >
+                            android:layout_height="60dp">
 
                             <Button
                                 style="@style/btnCourseStyle2"
@@ -550,11 +558,11 @@
 
                     <RelativeLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent" >
+                        android:layout_height="match_parent">
 
                         <TableRow
                             android:layout_width="match_parent"
-                            android:layout_height="60dp" >
+                            android:layout_height="60dp">
 
                             <Button
                                 style="@style/btnCourseStyle2"
@@ -615,11 +623,11 @@
 
                     <RelativeLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent" >
+                        android:layout_height="match_parent">
 
                         <TableRow
                             android:layout_width="match_parent"
-                            android:layout_height="60dp" >
+                            android:layout_height="60dp">
 
                             <Button
                                 style="@style/btnCourseStyle2"
@@ -680,11 +688,11 @@
 
                     <RelativeLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent" >
+                        android:layout_height="match_parent">
 
                         <TableRow
                             android:layout_width="fill_parent"
-                            android:layout_height="60dp" >
+                            android:layout_height="60dp">
 
                             <Button
                                 style="@style/btnCourseStyle2"
@@ -745,11 +753,11 @@
 
                     <RelativeLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent" >
+                        android:layout_height="match_parent">
 
                         <TableRow
                             android:layout_width="match_parent"
-                            android:layout_height="60dp" >
+                            android:layout_height="60dp">
 
                             <Button
                                 style="@style/btnCourseStyle2"
@@ -807,13 +815,14 @@
                                 android:text="" />
                         </TableRow>
                     </RelativeLayout>
+
                     <RelativeLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent" >
+                        android:layout_height="match_parent">
 
                         <TableRow
                             android:layout_width="match_parent"
-                            android:layout_height="60dp" >
+                            android:layout_height="60dp">
 
                             <Button
                                 style="@style/btnCourseStyle2"
