@@ -91,15 +91,9 @@
             android:layout_marginRight="10dp"
             android:background="#FFFFFF"
             android:gravity="center_vertical"
+            android:textColor="@color/black"
             android:text="   查看或更改学期"
             android:textSize="15sp" />
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1px"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:background="#aacccccc" />
 
         <Button
             android:id="@+id/btn_deleteAll"
@@ -110,14 +104,8 @@
             android:background="#FFFFFF"
             android:gravity="center_vertical"
             android:text="   清除此账号下所有课程"
+            android:textColor="@color/black"
             android:textSize="15sp" />
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1px"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:background="#aacccccc" />
 
         <Button
             android:id="@+id/btn_pifu"
@@ -128,14 +116,8 @@
             android:background="#FFFFFF"
             android:gravity="center_vertical"
             android:text="   使用皮肤"
+            android:textColor="@color/black"
             android:textSize="15sp" />
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1px"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:background="#aacccccc" />
 
         <Button
             android:id="@+id/btn_aboutUs"
@@ -145,8 +127,31 @@
             android:layout_marginRight="10dp"
             android:background="#FFFFFF"
             android:gravity="center_vertical"
+            android:textColor="@color/black"
             android:text="   关于我们"
             android:textSize="15sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#aacccccc" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#aacccccc" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#aacccccc" />
+
     </LinearLayout>
 
     <Button
