@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+        android:id="@+id/activity_lch_main_layout_frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/bg"
+            android:scaleType="centerCrop"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="课程表"
+             android:gravity="center"
+             android:textSize="26sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#7fab96c5">
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="节/周"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="周一"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="周二"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="周三"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="周四"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="周五"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="周六"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="周日"/>
+            </LinearLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:collapseColumns="8" >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp" >
+
+                            <Button
+                                style="@style/btnCourseStyle2"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="1" />
+
+                            <Button
+                                android:id="@+id/id_btn_1_1"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_2_1"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_3_1"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_4_1"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_5_1"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_6_1"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_7_1"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+                        </TableRow>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp" >
+
+                            <Button
+                                style="@style/btnCourseStyle2"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="2" />
+
+                            <Button
+                                android:id="@+id/id_btn_1_2"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_2_2"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_3_2"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_4_2"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_5_2"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_6_2"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_7_2"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+                        </TableRow>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp" >
+
+                            <Button
+                                style="@style/btnCourseStyle2"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="3" />
+
+                            <Button
+                                android:id="@+id/id_btn_1_3"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_2_3"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_3_3"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_4_3"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_5_3"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_6_3"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_7_3"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+                        </TableRow>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp" >
+
+                            <Button
+                                style="@style/btnCourseStyle2"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="4" />
+
+                            <Button
+                                android:id="@+id/id_btn_1_4"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_2_4"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_3_4"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_4_4"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_5_4"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_6_4"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_7_4"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+                        </TableRow>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp" >
+
+                            <Button
+                                style="@style/btnCourseStyle2"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="5" />
+
+                            <Button
+                                android:id="@+id/id_btn_1_5"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_2_5"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_3_5"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_4_5"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_5_5"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_6_5"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_7_5"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+                        </TableRow>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp" >
+
+                            <Button
+                                style="@style/btnCourseStyle2"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="6" />
+
+                            <Button
+                                android:id="@+id/id_btn_1_6"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_2_6"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_3_6"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_4_6"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_5_6"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_6_6"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_7_6"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+                        </TableRow>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp" >
+
+                            <Button
+                                style="@style/btnCourseStyle2"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="7" />
+
+                            <Button
+                                android:id="@+id/id_btn_1_7"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_2_7"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_3_7"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_4_7"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_5_7"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_6_7"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_7_7"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+                        </TableRow>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp" >
+
+                            <Button
+                                style="@style/btnCourseStyle2"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="8" />
+
+                            <Button
+                                android:id="@+id/id_btn_1_8"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_2_8"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_3_8"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_4_8"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_5_8"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_6_8"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_7_8"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+                        </TableRow>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp" >
+
+                            <Button
+                                style="@style/btnCourseStyle2"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="9" />
+
+                            <Button
+                                android:id="@+id/id_btn_1_9"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_2_9"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_3_9"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_4_9"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_5_9"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_6_9"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_7_9"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+                        </TableRow>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="60dp" >
+
+                            <Button
+                                style="@style/btnCourseStyle2"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="10" />
+
+                            <Button
+                                android:id="@+id/id_btn_1_10"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_2_10"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_3_10"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_4_10"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_5_10"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_6_10"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_7_10"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+                        </TableRow>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp" >
+
+                            <Button
+                                style="@style/btnCourseStyle2"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="11" />
+
+                            <Button
+                                android:id="@+id/id_btn_1_11"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_2_11"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_3_11"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_4_11"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_5_11"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_6_11"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_7_11"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+                        </TableRow>
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp" >
+
+                            <Button
+                                style="@style/btnCourseStyle2"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="12" />
+
+                            <Button
+                                android:id="@+id/id_btn_1_12"
+                                style="@style/btnCourseStyle2"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_2_12"
+                                style="@style/btnCourseStyle2"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_3_12"
+                                style="@style/btnCourseStyle2"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_4_12"
+                                style="@style/btnCourseStyle2"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_5_12"
+                                style="@style/btnCourseStyle2"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_6_12"
+                                style="@style/btnCourseStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/id_btn_7_12"
+                                style="@style/btnCourseStyle2"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="" />
+                        </TableRow>
+                    </RelativeLayout>
+                </TableLayout>
+            </ScrollView>
+        </LinearLayout>
+    </FrameLayout>
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/id_lch_bottom_navigation"
+        android:layout_width="match_parent"
+        android:background="@color/help_button_view"
+        android:layout_height="64dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/lch_bottom_menu"
+        />
+</android.support.constraint.ConstraintLayout>
