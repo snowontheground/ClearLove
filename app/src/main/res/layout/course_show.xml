@@ -131,6 +131,43 @@
                 android:text="1"
                 style="@style/courseShow"/>
         </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/radiogroup_show"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <RadioButton
+                android:id="@+id/mute_show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="静音" />
+
+            <RadioButton
+                android:id="@+id/vibration_show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="震动" />
+
+            <RadioButton
+                android:id="@+id/diabolo_show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="响铃" />
+
+            <RadioButton
+                android:id="@+id/vibration_diabolo_show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="响铃及震动" />
+        </RadioGroup>
+
         <LinearLayout
             android:orientation="horizontal"
             android:layout_height="wrap_content"
